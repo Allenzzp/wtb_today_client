@@ -1,0 +1,32 @@
+/* PriceChangeList.css */
+
+.priceChangeList {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.priceChangeList th,
+.priceChangeList td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.priceChangeList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+.priceChangeList .newPrice {
+  font-weight: bold;
+}
+
+.priceChangeList .percentageChange.positive {
+  color: red;
+}
+
+.priceChangeList .percentageChange.negative {
+  color: green;
+}
